@@ -1,0 +1,23 @@
+# Local secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+
+# Raw memory stores and local databases
+*.sqlite
+*.sqlite-*
+*.db
+memories/
+raw-memory/
+
+# Scratch files, logs and local Python environments
+work/
+tmp/
+*.log
+*.tmp
+*.bak
+__pycache__/
+.venv/
+.DS_Store
+Thumbs.db

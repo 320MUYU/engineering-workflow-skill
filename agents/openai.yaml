@@ -1,0 +1,7 @@
+interface:
+  display_name: "工程化开发工作流"
+  short_description: "按需澄清需求、审查计划、执行测试并逐步提交的工程化开发工作流"
+  default_prompt: "使用 $engineering-workflow-skill 处理这项工程任务：先澄清需求并判断复杂度，按规则完成计划审查、实现、验证和交付。"
+
+policy:
+  allow_implicit_invocation: true
